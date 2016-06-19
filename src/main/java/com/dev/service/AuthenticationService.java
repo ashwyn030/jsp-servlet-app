@@ -10,8 +10,7 @@ public class AuthenticationService {
 
 	public AuthenticationService() {
 		super();
-		this.users.put("ashwyn030", new User(1, "ashwyn030", "ashwyn030p"));
-		this.users.put("mk030", new User(2, "mk030", "mk030p"));
+		
 	}
 	
 	private static boolean ifNotNULLAndNonEmpty(String str) {

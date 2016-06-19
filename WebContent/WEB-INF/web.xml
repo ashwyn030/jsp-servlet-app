@@ -24,7 +24,7 @@
 		<servlet-name>AuthenticationController</servlet-name>
 		<url-pattern>/AuthenticationController.do</url-pattern>
 	</servlet-mapping>
-	
+
 	<servlet>
 		<description></description>
 		<display-name>HomeController</display-name>
@@ -35,4 +35,15 @@
 		<servlet-name>HomeController</servlet-name>
 		<url-pattern>/HomeController.do</url-pattern>
 	</servlet-mapping>
+	<context-param>
+		<param-name>breed</param-name>
+		<param-value>German Shephard</param-value>
+	</context-param>
+	<context-param>
+		<param-name>JDBC_DRIVER</param-name>
+		<param-value>com.mysql.jdbc.Driver</param-value>
+	</context-param>
+	<listener>
+		<listener-class>main.java.com.dev.contextListener.ContextListener</listener-class>
+	</listener>
 </web-app>

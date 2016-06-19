@@ -9,7 +9,7 @@ import main.java.com.dev.model.Message;
 
 public class MessageService {
 	
-	private Map<Long, Message> messages=DatabaseClass.getMessages();
+	private Map<Long, Message> messages=null;
 	
 	public MessageService() {
 		super();
